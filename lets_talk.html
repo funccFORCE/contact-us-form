@@ -4,59 +4,55 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="lets_talk.css">
 </head>
-<body>
+<body class="c_body">
 	
-	<div class="bg1" >
-		<div class="cross">+</div>
-		<h3>Let's talk!</h3>
+	<div class="c_bg1" >
+		<div class="c_cross">+</div>
+		<h3 class="c_let">Let's talk!</h3>
 		<!-- <div class="whiteline"> </div> -->
-		<div class="text-b">
+		<div class="c_text-b">
 			"Want to chat? Shoot us an email at "
-			<a href="mailto:info@horizon.co?subject=contact%20us">info@orizon.co</a>
+			<a href="mailto:info@horizon.co?subject=contact%20us" class="c_lin">info@orizon.co</a>
 		</div>
 	    <!-- </div> -->
-		<form action="ten.txt">
-			<label for="Name">Name & Company</label>
+		<form>
+			<label for="Name" class="c_label">Name & Company</label>
 			<br>
-			<input type="text" name="Name" id="Name" class="c1" placeholder="John from Google" required>
+			<input type="text" name="Name" id="Name" class="c_c1" placeholder="John from Google" required>
 			<br>
-			<label for="Mail">Email</label>
+			<label for="Mail" class="c_label">Email</label>
 			<br>
-			<input type="email" name="Mail" id="Name" class="c2" placeholder="john@google.com" required>
+			<input type="email" name="Mail" id="Name" class="c_c2" placeholder="john@google.com" required>
 			<br>
-			<label for="Project">Project Budget</label>
-			<div class="container">
-		        
-		        
-				<input type="radio" name="Mail" id="PB1" value="$10k-$20k" required>
-				<label for="PB1" class="label1">
+			<label for="Project" class="c_label">Project Budget</label>
+			<div class="c_container">
+		        <input type="radio" name="Mail" id="PB1" value="$10k-$20k" required class="c_input">
+				<label for="PB1" class="c_label1">
 					<span for"PB1">$10k-$20k</span>	
 				</label>
 				<br>
-				<input type="radio" name="Mail" id="PB2" value="$20k-$50k" required>
-				<label for="PB2" class="label2">
+				<input type="radio" name="Mail" id="PB2" value="$20k-$50k" required class="c_input">
+				<label for="PB2" class="c_label2">
 					<span for"PB2">$20k-$50k</span>	
 				</label>
 				<br>
-				<input type="radio" name="Mail" id="PB3" value="$50k-$100k" required>
-				<label for="PB3" class="label3">
+				<input type="radio" name="Mail" id="PB3" value="$50k-$100k" required class="c_input">
+				<label for="PB3" class="c_label3">
 					<span for"PB3">$50k-$100k</span>	
 				</label>
 				<br>
-				<input type="radio" name="Mail" id="PB4" value="$100k+" required>
-				<label for="PB4" class="label4" >
-					<span for"PB4">$100k+</span>	
+				<input type="radio" name="Mail" id="PB4" value="$100k+" required class="c_input">
+				<label for="PB4" class="c_label4" >
+					<span for"PB4" class="c_span">$100k+</span>	
 				</label>
-				
-				
 		    </div>
 		    <br>
-		    <label for="Desc">Project Description</label>
+		    <label for="Desc" class="c_label">Project Description</label>
 		    <br>
-		    <textarea placeholder="We need help to redesign our app…" maxlength="5000" id="Desc" class="c3" required></textarea>
+		    <textarea placeholder="We need help to redesign our app…" maxlength="5000" id="Desc" class="c_c3" required></textarea>
 		    <br>
 		    <!-- <input type="submit" value="Send" class="c4" data-wait="Please wait..."> -->
-		    <button type="submit" class="c4">Send</button>
+		    <button type="submit" class="c_c4">Send</button>
 		</form>
 		<script type="text/javascript" src="lets_talk.js">hi</script>
 	</div>

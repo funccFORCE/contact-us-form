@@ -1,37 +1,20 @@
 
 
-body{
+.c_body{
 	color: white;
 	margin-right:50px;
 	margin-left:80px;
-	/*margin-top: 20px;*/
 	padding: 30px;
 	background-color: #2b00d4;
 }
-h3{
+.c_let{
 	font-size: 40px;
 	padding-left: 20px;
 }
-.bg1{
+.c_bg1{
 	background-color: #2b00d4;
-	/*display: none;*/
 }
-.b1{
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.7);
-	display: flex;
-	justify-content: right;
-	/*display: none;*/
-
-}
-.bb{
-	width: 50%;
-	height: 50%;
-	background-color: blue;
-	display: none;
-}
-.cross{
+.c_cross{
 	color: white;
 	position: absolute;
 	font-size: 42px;
@@ -40,36 +23,28 @@ h3{
 	transform: rotate(45deg);
 	cursor: pointer;
 }
-/*.whiteline{*/
-	/*display: inline;*/
-	/*height: 34px;*/
-	/*width: 2px;*/
-	/*margin: 10px;*/
-	/*padding: 10px;*/
-	/*margin-right: 24px;*/
-	/*background-color: white;*/
-	
-/*}*/
-.text-b{
+.c_text-b{
 	display: inline-flex;
 	color: #a9aaee;
 	padding: 10px;
-	/*padding-top: 10px;*/
-	/*background-color: black;*/
 }
-a{
+.c_lin{
 	color: white;
 }
 
-input[type="radio"]{
+.c_input[type="radio"]{
 	display:none;
 }
-label{
+.c_input:checked+label{
+    color: #1400ff;
+    background-color: pink;
+    background-position: 0 -90px;
+    border: 1px solid #fff;
+}
+.c_label{
 	margin: 20px;
 }
-.c1{
-	
-	/*opacity: 50%;*/
+.c_c1{
 	border: none;
 	color: white;
 	height: 40px;
@@ -78,16 +53,8 @@ label{
 	background-color: #3a28dc;
 	width: 370px;
 	padding-left: 20px;
-
-	/*display: flex;*/
-	/*border-color: white;*/
 }
-
-
-
-.c2{
-	
-	/*opacity: 50%;*/
+.c_c2{
 	border: none;
 	height: 40px;
 	margin: 10px;
@@ -95,50 +62,31 @@ label{
 	color: white;
 	background-color: #3a28dc;
 	width: 370px;
-	padding-left: 20px;
-	/*border-color: white;*/
-}
-.c3{
+	padding-left: 20px;}
+.c_c3{
 	background-color: #3a28dc;
 	border: none;
-	/*opacity: 50%;*/
 	color: white;
 	height: 80px;
 	margin: 10px;
 	width: 40%;
 	width: 370px;
 	padding-left: 20px;
-	/*border-color: white;*/
 }
-
-
-.c4{
-	
-	/*background-color: black;*/
+.c_c4{
 	color: blue;
 	height: 40px;
 	margin: 10px;
 	width:100px;
 	margin-left: 10%;
-
-	/*padding-left: 60px;
-	/*border-color: white;*/
 }
-.container{
-	/*background-color: pink;*/
+.c_container{
 	padding: 0;
 	margin-right: 0;
-	/*height: 50px;*/
-	/*width: 550px;*/
 	display:flex;
-	/*justify-content: center;*/
-	/*align-items: center;*/
 	box-shadow: 0 0 0px 0 #d1d1d1d;
-
-	/*overflow: hidden;*/
 }
-.label1,.label2,.label3,.label4{
-	/*background-color: white;*/
+.c_label1,.c_label2,.c_label3,.c_label4{
 	background-color: #3a28dc;
 	border: none;
 	display: block;
@@ -146,49 +94,31 @@ label{
 	width: 100px;
 	background-size: 130px 180px;
 	position: relative;
-	/*opacity: 50%;*/
 	color: grey;
 	border-spacing: 10px
 	padding:5px;
 	margin: 5px;
 	cursor: pointer;
-	/*left: -19px;*/
-	/*top: 26%;*/
 }
-.label1{
-	/*left: -12%;*/
+.c_label1{
 	left: 5px;
 	width: 90px;
 	height: auto;
 }
-.label2{
-	/*left: -11%;*/
-	/*width: 90px;*/
+.c_label2{
 	width: auto;
 	height: auto;
 }
-.label3{
-	/*left: -10%;*/
-	/*width: 90px;*/
+.c_label3{
 	height: auto;
 	width: auto;
 }
-.label4{
-	/*left: -9%;*/
+.c_label4{
 	height: auto;
 	width: auto;
 }
-span{
+.c_span{
 	display: flex;
-	/*height: 90px;*/
-	/*width: 100px;*/
 	padding: 10px;
-	/*margin: 5px;*/
 }
 
-input:checked+label{
-    color: red;
-    background-color: pink;
-    background-position: 0 -90px;
-    border: 1px solid #fff;
-}
